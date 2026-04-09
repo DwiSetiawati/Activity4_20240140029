@@ -233,7 +233,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormMahasiswa";
             this.Text = "FormMahasiswa";
-            this.Load += new System.EventHandler(this.btnUpdate_Click);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

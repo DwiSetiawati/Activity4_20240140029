@@ -14,7 +14,7 @@ namespace CRUDMahasiswaADO
     public partial class FormMahasiswa : Form
     {
         private readonly SqlConnection conn;
-        private readonly string connectionString = "Data Source=LAPTOP-PQSI1Q9H\\TIAA; Initial Catalog=DBAkademikADO; Integrated Security=True";
+        private readonly string connectionString = "Data Source=LAPTOP-PQSI1Q9H\\TIAA; Initial Catalog=DBAkademikADO; Integrated Security=True; TrustServerCertificate=True";
         public FormMahasiswa()
         {
             InitializeComponent();
